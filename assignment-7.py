@@ -1,13 +1,10 @@
 #1
-a=eval(input('enter dictionary'))
-b=int(input("enter value"))
-flag=False
-for i in a.items():
-    
-    if(b==i[1]):
-        
-        print(i[0])
-
+a={}
+for i in range(1,5):
+    k=input("enter the key")
+    v=int(input("enter a value"))
+    a[k]=v
+print(a)
 
 #2
 dic1={}
@@ -23,3 +20,4 @@ for j in dic1.items():
     for r in range(2):
         if(j[r][0]==name):
             print(j[1])
+
